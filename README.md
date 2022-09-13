@@ -67,3 +67,23 @@ O se puede utilizar el operador OR
 `select * from Usuario where identificacion BETWEEN '110' and '150'`
 
 ![Consulta 9](img/9.jpeg "Consulta 9")
+
+## COMANDO DELETE
+
+10. Para eleminar solamente los registros cuya identificación sea mayor de 130 
+
+`delete from Usuario where identficacion>'130'`
+
+![Consulta 10](img/10.jpeg "Consulta 10")
+
+![Consulta 10](img/10_1.jpeg "Consulta 10")
+
+## COMANDO UPDATE
+
+11. Para actualizar la ciudad de nacimiento de Cristian Vanegas cuya identificación es 114
+
+`update Usuario set ciudad_nac = 'Manisalez' where identificacion='114'`
+
+![Consulta 11](img/11.jpeg "Consulta 11")
+
+![Consulta 11](img/11_1.jpeg "Consulta 11")
