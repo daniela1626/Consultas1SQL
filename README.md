@@ -48,3 +48,16 @@ O se puede utilizar el operador OR
 `select * from Usuario where nombre LIKE 'A%'`
 
 ![Consulta 6](img/6.jpeg "Consulta 6")
+
+7. Se desea obtener los registros cuyos nombres tengan la letra a 
+
+`select * from Usuario where nombre LIKE '%a%'`
+
+![Consulta 7](img/7.jpeg "Consulta 7")
+
+
+8. Si se desea obtener los regisro donde la cuarta letra de nomre sea una a
+
+`select * from Usuario where nombre LIKE '___a%'`
+
+![Consulta 8](img/8.jpeg "Consulta 8")
