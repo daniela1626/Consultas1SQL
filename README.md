@@ -61,3 +61,9 @@ O se puede utilizar el operador OR
 `select * from Usuario where nombre LIKE '___a%'`
 
 ![Consulta 8](img/8.jpeg "Consulta 8")
+
+9. Si se desea obtener los registros cuya identificación este entre el intervalo 110 y 150, se debe utilizar la clausula BETWEEN, que sirve para especificr un intervalo de valores
+
+`select * from Usuario where identificacion BETWEEN '110' and '150'`
+
+![Consulta 9](img/9.jpeg "Consulta 9")
