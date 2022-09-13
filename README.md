@@ -41,3 +41,10 @@ O se puede utilizar el operador OR
 `SELECT * FROM usuario  WHERE Identificacion<`150` AND ciudad=`Cali`
 
 ![Consulta 5](img/5.png "Consulta 5")
+
+
+6. Si se desa obtener los registros cuyos nombres empiecen por la letra a, sebe utilizar l operador LIKE que utiliza los patrones "%" (todos) y '_' (caracter)
+
+`select * from Usuario where nombre LIKE 'A%'`
+
+![Consulta 6](img/6.jpeg "Consulta 6")
